@@ -1,0 +1,49 @@
+.all-user {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+td button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+td button:hover {
+  background-color: #d32f2f;
+}
+
+td a {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+td a:hover {
+  background-color: #45a049;
+}
