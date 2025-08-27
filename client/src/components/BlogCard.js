@@ -23,8 +23,7 @@ export default function BlogCard({
   id,
   isUser,
 }) {
-  console.log(image);
-  //console.log(image.data.toString('base64'))
+  
   const navigate = useNavigate();
   const handleEdit = () => {
     navigate(`/blog-details/${id}`);
