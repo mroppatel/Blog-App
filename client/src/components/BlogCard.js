@@ -1,7 +1,6 @@
 import * as React from "react";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
-import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
@@ -75,13 +74,13 @@ export default function BlogCard({
       />
       {/* <CardMedia component="img" height="194" image={image} alt=" Image" /> */}
       {image && (
-    <img
-      //src={ `data:image/png;base64, ${image.data.toString('base64')}`} // Set the src to the image data (URL or base64)
-      src={image}
-      alt="Blog Image"
-      style={{ width : '500px', height: '300px'}}
-    />  
-  )}
+        <img
+          //src={ `data:image/png;base64, ${image.data.toString('base64')}`} // Set the src to the image data (URL or base64)
+          src={image}
+          alt="Blog Post Cover"
+          style={{ width: "500px", height: "300px" }}
+        />
+      )}
       <CardContent>
         <Typography variant="h6" color="text.secondary">
           Title : {title}
